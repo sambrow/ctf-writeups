@@ -1,0 +1,58 @@
+# Untracked files.
+# Mac OS X Finder and whatnot
+.DS_Store
+
+# XCode (and ancestors) per-user config (very noisy, and not relevant)
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# Generated files
+VersionX-revision.h
+
+# build products
+build/
+*.[oa]
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+# Ignoring eclipse artifacts
+.project
+.classpath
+.settings*
+
+# Ignoring maven artifacts
+target*
+overlays*
+
+# Ignoring intellij artifacts
+*.iml
+.idea/
+
+# Ignoring Netbeans artifacts
+nb-configuration.xml
+nbactions.xml
+
+# Ignore node.js artifacts
+npm-debug.log
+node/
+node_modules/
+typings/
+
+# Ignore local javascript compiled files of typescript source
+**/src/ui/**/*.js
